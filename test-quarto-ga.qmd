@@ -2,10 +2,15 @@
 title: "test-quarto-ga"
 ---
 
-## Quarto
+## First Example
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+This is a first example of using Quarto to create a simple document with a ggplot of the mtcars dataset:
 
 ```{r}
-1 + 1
+library(ggplot2)
+
+ggplot(mtcars, aes(cyl, fill = factor(cyl))) +
+  geom_bar()
 ```
+
+
