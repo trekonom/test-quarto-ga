@@ -1,0 +1,17 @@
+{
+  "hash": "6898a0c1cd225eb55d07856320747549",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"test-quarto-ga\"\n---\n\n\n## First Example\n\nThis is a first example of using Quarto to create a simple document with a ggplot of the mtcars dataset:\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\n\nggplot(mtcars, aes(cyl, fill = factor(cyl))) +\n  geom_bar()\n```\n\n::: {.cell-output-display}\n![](test-quarto-ga_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "test-quarto-ga_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
