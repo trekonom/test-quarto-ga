@@ -2,3 +2,5 @@ project:
   title: "test-quarto-ga"
 editor: visual
 engine: knitr
+execute:
+  freeze: true
