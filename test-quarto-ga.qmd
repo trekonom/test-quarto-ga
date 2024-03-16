@@ -8,6 +8,10 @@ library(ggplot2)
 library(echarts4r)
 ```
 
+## Date
+
+It is now `r Sys.time()`.
+
 ## First Example
 
 This is a first example of using Quarto to create a simple document with a ggplot of the mtcars dataset:
