@@ -1,5 +1,6 @@
 ---
 title: "test-quarto-ga"
+format: html
 execute:
   freeze: auto
 ---
