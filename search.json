@@ -2,28 +2,28 @@
   {
     "objectID": "test-quarto-ga.html",
     "href": "test-quarto-ga.html",
-    "title": "test-quarto-ga",
+    "title": "Publishing a Quarto Document on Github Actions",
     "section": "",
     "text": "library(ggplot2)"
   },
   {
     "objectID": "test-quarto-ga.html#date",
     "href": "test-quarto-ga.html#date",
-    "title": "test-quarto-ga",
+    "title": "Publishing a Quarto Document on Github Actions",
     "section": "Date",
-    "text": "Date\nIt is now 2024-03-16 13:37:49.789172."
+    "text": "Date\nIt is now 2024-03-16 17:54:41.647019."
   },
   {
     "objectID": "test-quarto-ga.html#first-example",
     "href": "test-quarto-ga.html#first-example",
-    "title": "test-quarto-ga",
+    "title": "Publishing a Quarto Document on Github Actions",
     "section": "First Example",
     "text": "First Example\nThis is a first example of using Quarto to create a simple document with a ggplot of the mtcars dataset:\n\nggplot(mtcars, aes(cyl, fill = factor(cyl))) +\n  geom_bar()"
   },
   {
     "objectID": "test-quarto-ga.html#second-example",
     "href": "test-quarto-ga.html#second-example",
-    "title": "test-quarto-ga",
+    "title": "Publishing a Quarto Document on Github Actions",
     "section": "Second example",
     "text": "Second example\nThis is a second example of using Quarto adding a ggplot of the iris dataset:\n\nggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +\n  geom_point()"
   }
