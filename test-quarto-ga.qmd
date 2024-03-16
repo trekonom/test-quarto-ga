@@ -1,5 +1,7 @@
 ---
 title: "test-quarto-ga"
+execute:
+  freeze: true
 ---
 
 ```{r}
