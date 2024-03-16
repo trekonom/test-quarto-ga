@@ -18,6 +18,6 @@ ggplot(mtcars, aes(cyl, fill = factor(cyl))) +
 This is a second example of using Quarto adding a ggplot of the iris dataset:
 
 ```{r}
-ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species) +
+ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
   geom_point()
 ```

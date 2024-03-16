@@ -1,8 +1,8 @@
 {
-  "hash": "6898a0c1cd225eb55d07856320747549",
+  "hash": "a183b2cf88ee39b881da1151633c13d4",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"test-quarto-ga\"\n---\n\n\n## First Example\n\nThis is a first example of using Quarto to create a simple document with a ggplot of the mtcars dataset:\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\n\nggplot(mtcars, aes(cyl, fill = factor(cyl))) +\n  geom_bar()\n```\n\n::: {.cell-output-display}\n![](test-quarto-ga_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "markdown": "---\ntitle: \"test-quarto-ga\"\n---\n\n\n## First Example\n\nThis is a first example of using Quarto to create a simple document with a ggplot of the mtcars dataset:\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\n\nggplot(mtcars, aes(cyl, fill = factor(cyl))) +\n  geom_bar()\n```\n\n::: {.cell-output-display}\n![](test-quarto-ga_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n## Second example\n\nThis is a second example of using Quarto adding a ggplot of the iris dataset:\n\n\n::: {.cell}\n\n```{.r .cell-code}\nggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +\n  geom_point()\n```\n\n::: {.cell-output-display}\n![](test-quarto-ga_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n",
     "supporting": [
       "test-quarto-ga_files"
     ],
