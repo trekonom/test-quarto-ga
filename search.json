@@ -4,14 +4,14 @@
     "href": "test-quarto-ga.html",
     "title": "Publishing a Quarto Document on Github Actions",
     "section": "",
-    "text": "library(ggplot2)"
+    "text": "library(ggplot2)\nlibrary(echarts4r)"
   },
   {
     "objectID": "test-quarto-ga.html#date",
     "href": "test-quarto-ga.html#date",
     "title": "Publishing a Quarto Document on Github Actions",
     "section": "Date",
-    "text": "Date\nIt is now 2024-03-16 17:54:41.647019."
+    "text": "Date\nIt is now 2024-03-16 17:59:29.421534."
   },
   {
     "objectID": "test-quarto-ga.html#first-example",
@@ -26,5 +26,12 @@
     "title": "Publishing a Quarto Document on Github Actions",
     "section": "Second example",
     "text": "Second example\nThis is a second example of using Quarto adding a ggplot of the iris dataset:\n\nggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +\n  geom_point()"
+  },
+  {
+    "objectID": "test-quarto-ga.html#third-example",
+    "href": "test-quarto-ga.html#third-example",
+    "title": "Publishing a Quarto Document on Github Actions",
+    "section": "Third example",
+    "text": "Third example\nThis is a second example of using Quarto adding an echart of the iris dataset:\n\niris |&gt; \n  group_by(Species) |&gt; \n  e_chart(Sepal.Length) |&gt; \n  e_scatter(Sepal.Width, symbol_size = 10)"
   }
 ]
