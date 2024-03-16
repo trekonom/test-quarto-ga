@@ -3,6 +3,6 @@
 .RData
 .Ruserdata
 /.quarto/
-/_site/
+/docs/
 /test-quarto-ga_files/
 test-quarto-ga.html

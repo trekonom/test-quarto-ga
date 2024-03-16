@@ -1,3 +1,4 @@
 project:
   type: website
-engine: knitr
+  output-dir: docs
+  title: "test-quarto-ga"

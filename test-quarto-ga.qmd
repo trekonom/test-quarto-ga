@@ -1,12 +1,13 @@
 ---
-title: "test-quarto-ga"
+title: "Publishing a Quarto Document on Github Actions"
 format: html
+engine: knitr
 execute:
   freeze: auto
 ---
 
 ```{r}
-#| label: setup
+#| context: setup
 library(ggplot2)
 ```
 
