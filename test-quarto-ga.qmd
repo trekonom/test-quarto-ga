@@ -9,6 +9,7 @@ execute:
 ```{r}
 #| context: setup
 library(ggplot2)
+library(echarts4r)
 ```
 
 ## Date
@@ -31,4 +32,15 @@ This is a second example of using Quarto adding a ggplot of the iris dataset:
 ```{r}
 ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species)) +
   geom_point()
+```
+
+## Third example
+
+This is a second example of using Quarto adding an echart of the iris dataset:
+
+```{r}
+iris |> 
+  group_by(Species) |> 
+  e_chart(Sepal.Length) |> 
+  e_scatter(Sepal.Width, symbol_size = 10)
 ```
