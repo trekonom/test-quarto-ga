@@ -18,16 +18,17 @@ jobs:
         uses: r-lib/actions/setup-r@v2
         with:
           r-version: '4.3.2'
-          
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Set up deps
+      - name: Install pkgs
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
           packages:
             any::knitr
             any::rmarkdown
+            any::ggplot2
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
