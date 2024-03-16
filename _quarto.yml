@@ -1,5 +1,4 @@
 project:
-  title: "test-quarto-ga"
+  type: website
+  format: html
 engine: knitr
-execute:
-  freeze: true
